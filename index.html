@@ -16,20 +16,20 @@
         </header>
         <nav>
             <ul>
-                <li>Inicio</li>
-                <li>Rutas</li>
-                <li>Sobre nosotros</li>
-                <li>Contacto</li>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="">Rutas</a></li>
+                <li><a href="">Sobre nosotros</a></li>
+                <li><a href="">Contacto</a></li>
             </ul>
         </nav>
-        <section>
+        <section id="sectionPrincipal">
             <img id="imgPrincipal" src="./img/imagen_principal_paisaje.png">
             <div>
                 <h2>Tu próxima aventura te está esperando</h2>
                 <p>Explora nuestras rutas de senderismo y descubre paisajes únicos. Naturaleza, aire libre y experiencias inolvidables te esperan</p>
             </div>
         </section>
-        <section>
+        <section id="sectionInferior">
             <form action="" method="post">
                 <h2>Reserva tu ruta</h2>
                 <label for="actividad">Actividad</label>
@@ -37,22 +37,22 @@
                     <option>Selecciona una actividad</option>
                 </select>
 
-                <label for="fecha" id="labelFecha">Fecha</label>
-                <label for="personas" id="labelPersonas">Nº personas</label>
+                <label for="inputFecha" id="labelFecha">Fecha</label>
+                <label for="inputPersonas" id="labelPersonas">Nº personas</label>
                 <br/>
                 
-                <input type="text" id="fecha"/>
-                <input type="text" id="personas"/>
+                <input type="text" id="inputFecha"/>
+                <input type="text" id="inputPersonas"/>
 
                 <label for="comentarios">Comentarios (opcional)</label>
-                <textarea placeholder="Escribe aquí tus comentarios..."></textarea>
+                <textarea id="comentarios" placeholder="Escribe aquí tus comentarios..."></textarea>
 
                 <input type="submit" value="Reservar">
             </form>
             <div id="cajaImagenLista">
                 <img src="./img/imagen_secundaria_sendero.png">
                 <div>
-                    <p>¿Por qué elegirnos?</p>
+                    <h2>¿Por qué elegimos?</h2>
                     <ul>
                         <li>Rutas para todos los niveles</li>
                         <li>Guías especializadas</li>
@@ -63,7 +63,7 @@
             </div>
         </section>
         <footer>
-            <p>2025 Rutas&Naturalezas. Todos los derechos reservados</p>
+            <p>2025 Rutas&Naturalezas. Todos los derechos reservados.</p>
         </footer>
     </body>
 </html>

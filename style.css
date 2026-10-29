@@ -1,11 +1,40 @@
+/* GENERAL */
 html {
     width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     width: 1160px;
     margin: 0 auto;
 }
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0a6fe5;
+}
+
+p {
+    font-size: 16px;
+}
+
+label {
+    font-size: 14px;
+    color: #0a6fe5;
+}
+
+input {
+    font-size: 16px;
+    color: #329eeb;
+    background-color: #f1fafd;
+}
+/* FIN GENERAL */
 
 /* HEADER */
 header {
@@ -25,18 +54,20 @@ header div {
 header div h1 {
     font-size: 24px;
     font-weight: bold;
-    color: white;
+    color: #ffffff;
 }
 
 header img {
     width: 170px;
     height: 80px;
     float: right;
+    position: relative;
+    right: 200px; /* Para que quede posicionado similar a la imagen (encima de Contactos) */
 }
 
 header div p {
     font-size: 14px;
-    color: white;
+    color: #ffffff;
 }
 /* FIN HEADER */
 
@@ -48,17 +79,18 @@ nav {
     background-color: #5AAFE0;
 }
 
-nav li {
-    display: inline-block;
-    text-align: center;
-    color: white;
-}
-
 nav ul li {
     width: 120px;
     height: 30px;
-    padding: 10px auto 0px auto;
+    padding: 10px 0px 0px 0px;
     margin: 0px 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 16px;
 }
 
 nav ul li:hover {
@@ -67,32 +99,42 @@ nav ul li:hover {
 /* FIN NAV */
 
 /* SECCIÓN PRINCIPAL */
-section {
+#sectionPrincipal {
     width: 1120px;
     height: 310px;
     padding: 20px;
     background-color: #E6F2FA;
 }
 
-section img {
+#sectionPrincipal img {
     width: 560px;
     height: 310px;
     margin: 0px 10px 0px 0px;
 }
 
-section div {
+#sectionPrincipal div {
     width: 498px;
-    height: 300px;
+    height: 298px;
     padding: 5px 20px;
-    border: solid 1px paleturquoise;
+    border: solid 1px #b5e9fb;
     margin: 0px 0px 0px 10px;
     float: right;
     background-color: #E5F2FC;
 }
+
+#sectionPrincipal div h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#sectionPrincipal div p {
+    font-size: 18px;
+    color: #329eeb;
+}
 /* FIN SECCIÓN PRINCIPAL */
 
 /* SECCIÓN INFERIOR */
-section + section {
+#sectionInferior {
     width: 1140px;
     height: 747px;
     padding: 15px 0px 15px 20px;
@@ -102,22 +144,26 @@ section + section {
     /* FORMULARIO */
     form {
         width: 428px;
-        padding: 0px 20px;
-        border: solid 1px paleturquoise;
+        padding: 15px 20px; /* Padding T/B vacío en documento, pero 15px en la imagen */
+        border: solid 1px #b5e9fb;
         margin: 0px 10px 0px 0px;
         float: left;
     }
 
     form h2 {
         background-color: #DCECF9;
+        font-size: 20px;
+        font-weight: bold;
     }
 
     select {
         width: 422px;
         height: 60px;
         padding: 0px 10px;
-        border: solid 1px black;
+        border: solid 1px #b5e9fb;
         margin-bottom: 30px;
+        color: #329eeb;
+        background-color: #f1fafd;
     }
 
     #labelFecha {
@@ -128,19 +174,19 @@ section + section {
         margin: 0px 0px 0px 25px;
     }
 
-    #fecha {
+    #inputFecha {
         width: 198px;
         height: 58px;
         padding: 0px 10px;
-        border: solid 1px black;
-        margin: 0px 25px 0px 0px;
+        border: solid 1px #b5e9fb;
+        margin: 0px 25px 16px 0px;
     }
 
-    #personas {
+    #inputPersonas {
         width: 120px;
         height: 58px;
         padding: 0px 10px;
-        border: solid 1px black;
+        border: solid 1px #b5e9fb;
         margin: 0px 0px 16px 25px;
     }
 
@@ -148,8 +194,9 @@ section + section {
         width: 400px;
         height: 58px;
         padding: 0px 10px;
-        border: solid 1px black;
+        border: solid 1px #b5e9fb;
         margin: 0px 0px 16px 0px;
+        background-color: #f1fafd;
     }
 
     input[type="submit"] {
@@ -158,31 +205,36 @@ section + section {
         border: solid 1px black;
         margin: 0px 0px 16px 0px;
         background-color: #2D9B48;
+        color: #ffffff;
+        font-size: 16px;
     }
     /* FIN FORMULARIO */
 
+    /* BLOQUE SECUNDARIO */
+    #cajaImagenLista { /* Bloque secundario del section inferior (ventajas */
+        width: 440px;
+        height: 717px;
+        padding: 15px;
+        margin: 0px 0px 0px 10px;
+        border: 0px;
+        float: left;
+    }
 
-section + section div { /* Bloque secundario del section inferior (ventajas */
-    width: 440px;
-    height: 717px;
-    padding: 15px;
-    margin: 0px 0px 0px 10px;
-    border: 0px;
-    float: left;
-}
+    #cajaImagenLista img { /* Imagen ventajas */
+        width: 470px;
+        height: 411px;
+    }
 
-section + section img { /* Imagen ventajas */
-    width: 470px;
-    height: 411px;
-}
-
-section + section div div { /* Listado de ventajas */
-    width: 420px;
-    height: 311px;
-    padding: 0px 25px;
-    margin: 25px 0px 0px 0px;
-    background-color: #E8F4E9;
-}
+    #cajaImagenLista div { /* Listado de ventajas */
+        width: 420px;
+        height: 311px;
+        padding: 0px 25px;
+        margin: 25px 0px 0px 0px;
+        background-color: #E8F4E9;
+        color: #0a6fe5;
+        font-size: 14px;
+    }
+    /* FIN BLOQUE SECUNDARIO */
 /* FIN SECCIÓN INFERIOR */
 
 footer {
@@ -190,5 +242,7 @@ footer {
     height: 40px;
     padding: 20px;
     background-color: #205A82;
-    color: white;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
 }
