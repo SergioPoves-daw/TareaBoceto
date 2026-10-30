@@ -1,0 +1,275 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+@font-face {
+    font-family: 'StoryScript';
+    src: url(./fuentes/Story_Script/StoryScript-Regular.ttf);
+}
+/* FIN FUENTES */
+
+/* GENERAL */
+html {
+    width: 1200px;
+}
+
+body {
+    width: 1160px;
+    margin: 0px auto; /* Centrar body */
+    font-family: 'StoryScript';
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Limelight';
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0a6fe5;
+    font-family: 'Limelight';
+}
+
+p {
+    font-size: 16px;
+}
+
+label {
+    font-size: 14px;
+    color: #0a6fe5;
+}
+
+input {
+    font-size: 16px;
+    color: #329eeb;
+    background-color: #f1fafd;
+}
+/* FIN GENERAL */
+
+/* HEADER */
+header {
+    width: 1120px;
+    height: 80px;
+    padding: 20px;
+    background-color: #205A82;
+}
+
+header div {
+    width: 300px;
+    height: 80px;
+    margin: 0px 0px 0px 20px;
+    float: left;
+}
+
+header div h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+header div + div {
+    width: 170px;
+    height: 80px;
+    float: right;
+    position: relative;
+    right: 200px; /* Para que quede posicionado similar a la imagen (encima de Contactos) */
+}
+
+header div + div img {
+    width: 100%;
+    height: auto;
+}
+
+header div p {
+    font-size: 14px;
+    color: #ffffff;
+}
+/* FIN HEADER */
+
+/* NAV */
+nav {
+    width: 1120px;
+    height: 40px;
+    padding: 10px 20px;
+    background-color: #5AAFE0;
+}
+
+nav ul li {
+    width: 120px;
+    height: 30px;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+nav ul li:hover {
+    background-color: #07579B;
+}
+/* FIN NAV */
+
+/* SECCIÓN PRINCIPAL */
+#sectionPrincipal {
+    width: 1120px;
+    height: 310px;
+    padding: 20px;
+    background-color: #E6F2FA;
+}
+
+#imgPrincipal {
+    width: 560px;
+    height: 310px;
+    margin: 0px 10px 0px 0px;
+    float: left;
+}
+
+#imgPrincipal img {
+    width: 100%;
+    height: auto;
+}
+
+#sectionPrincipal div + div {
+    width: 498px;
+    height: 298px;
+    padding: 5px 20px;
+    border: solid 1px #b5e9fb;
+    margin: 0px 0px 0px 10px;
+    float: right;
+    background-color: #E5F2FC;
+}
+
+#sectionPrincipal div h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#sectionPrincipal div p {
+    font-size: 18px;
+    color: #329eeb;
+}
+/* FIN SECCIÓN PRINCIPAL */
+
+/* SECCIÓN INFERIOR */
+#sectionInferior {
+    width: 1140px;
+    height: 747px;
+    padding: 15px 0px 15px 20px;
+    background-color: #F0FBF7;
+}
+
+    /* FORMULARIO */
+    form {
+        width: 428px;
+        padding: 15px 20px; /* Padding T/B vacío en documento, pero 15px en la imagen */
+        border: solid 1px #b5e9fb;
+        margin: 0px 10px 0px 0px;
+        float: left;
+    }
+
+    form h2 {
+        background-color: #DCECF9;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    select {
+        width: 422px;
+        height: 60px;
+        padding: 0px 10px;
+        border: solid 1px #b5e9fb;
+        margin-bottom: 30px;
+        color: #329eeb;
+        background-color: #f1fafd;
+    }
+
+    #labelFecha {
+        margin: 0px 25px 0px 0px;
+    }
+
+    #labelPersonas {
+        margin: 0px 0px 0px 25px;
+    }
+
+    #inputFecha {
+        width: 198px;
+        height: 58px;
+        padding: 0px 10px;
+        border: solid 1px #b5e9fb;
+        margin: 0px 25px 16px 0px;
+    }
+
+    #inputPersonas {
+        width: 120px;
+        height: 58px;
+        padding: 0px 10px;
+        border: solid 1px #b5e9fb;
+        margin: 0px 0px 16px 25px;
+    }
+
+    textarea {
+        width: 400px;
+        height: 58px;
+        padding: 0px 10px;
+        border: solid 1px #b5e9fb;
+        margin: 0px 0px 16px 0px;
+        background-color: #f1fafd;
+    }
+
+    input[type="submit"] {
+        width: 422px;
+        height: 60px;
+        border: solid 1px black;
+        margin: 0px 0px 16px 0px;
+        background-color: #2D9B48;
+        color: #ffffff;
+        font-size: 16px;
+    }
+    /* FIN FORMULARIO */
+
+    /* BLOQUE SECUNDARIO */
+    #cajaImagenLista { /* Bloque secundario del section inferior (ventajas */
+        width: 440px;
+        height: 717px;
+        padding: 15px;
+        margin: 0px 0px 0px 10px;
+        border: 0px;
+        float: left;
+    }
+
+    #imgSecundaria { /* Imagen ventajas */
+        width: 470px;
+        height: 411px;
+    }
+
+    #imgSecundaria img {
+        width: 100%;
+        height: auto;
+    }
+
+    #cajaImagenLista div + div { /* Listado de ventajas */
+        width: 420px;
+        height: 311px;
+        padding: 0px 25px;
+        margin: 25px 0px 0px 0px;
+        background-color: #E8F4E9;
+        color: #0a6fe5;
+        font-size: 14px;
+    }
+    /* FIN BLOQUE SECUNDARIO */
+/* FIN SECCIÓN INFERIOR */
+
+footer {
+    width: 1120px;
+    height: 40px;
+    padding: 20px;
+    background-color: #205A82;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <title>Wireframe</title>
+</head>
+    <body>
+        <header>
+            <div>
+                <h1>Rutas&Naturaleza</h1>
+                <p>Descubre. Explora. Disfruta</p>
+            </div>
+            <div>
+                <img src="./img/imagen_header_montanas.png">
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="">Rutas</a></li>
+                <li><a href="">Sobre nosotros</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+        <section id="sectionPrincipal">
+            <div id="imgPrincipal">
+                <img src="./img/imagen_principal_paisaje.png">
+            </div> 
+            <div>
+                <h2>Tu próxima aventura te está esperando</h2>
+                <p>Explora nuestras rutas de senderismo y descubre paisajes únicos. Naturaleza, aire libre y experiencias inolvidables te esperan</p>
+            </div>
+        </section>
+        <section id="sectionInferior">
+            <form action="" method="post">
+                <h2>Reserva tu ruta</h2>
+                <label for="actividad">Actividad</label>
+                <select id="actividad">
+                    <option>Selecciona una actividad</option>
+                </select>
+
+                <label for="inputFecha" id="labelFecha">Fecha</label>
+                <label for="inputPersonas" id="labelPersonas">Nº personas</label>
+                <br/>
+                
+                <input type="text" id="inputFecha"/>
+                <input type="text" id="inputPersonas"/>
+
+                <label for="comentarios">Comentarios (opcional)</label>
+                <textarea id="comentarios" placeholder="Escribe aquí tus comentarios..."></textarea>
+
+                <input type="submit" value="Reservar">
+            </form>
+            <div id="cajaImagenLista">
+                <div id="imgSecundaria">
+                    <img src="./img/imagen_secundaria_sendero.png">
+                </div>
+                <div>
+                    <h2>¿Por qué elegimos?</h2>
+                    <ul>
+                        <li>Rutas para todos los niveles</li>
+                        <li>Guías especializadas</li>
+                        <li>Grupos reducidos</li>
+                        <li>Respeto por el medio ambiente</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>2025 Rutas&Naturalezas. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>

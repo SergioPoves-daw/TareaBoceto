@@ -68,12 +68,17 @@ header div h1 {
     color: #ffffff;
 }
 
-header img {
+header div + div {
     width: 170px;
     height: 80px;
     float: right;
     position: relative;
     right: 200px; /* Para que quede posicionado similar a la imagen (encima de Contactos) */
+}
+
+header div + div img {
+    width: 100%;
+    height: auto;
 }
 
 header div p {
@@ -117,13 +122,19 @@ nav ul li:hover {
     background-color: #E6F2FA;
 }
 
-#sectionPrincipal img {
+#imgPrincipal {
     width: 560px;
     height: 310px;
     margin: 0px 10px 0px 0px;
+    float: left;
 }
 
-#sectionPrincipal div {
+#imgPrincipal img {
+    width: 100%;
+    height: auto;
+}
+
+#sectionPrincipal div + div {
     width: 498px;
     height: 298px;
     padding: 5px 20px;
@@ -231,12 +242,17 @@ nav ul li:hover {
         float: left;
     }
 
-    #cajaImagenLista img { /* Imagen ventajas */
+    #imgSecundaria { /* Imagen ventajas */
         width: 470px;
         height: 411px;
     }
 
-    #cajaImagenLista div { /* Listado de ventajas */
+    #imgSecundaria img {
+        width: 100%;
+        height: auto;
+    }
+
+    #cajaImagenLista div + div { /* Listado de ventajas */
         width: 420px;
         height: 311px;
         padding: 0px 25px;
