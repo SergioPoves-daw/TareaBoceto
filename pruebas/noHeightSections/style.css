@@ -72,8 +72,6 @@ header div + div {
     width: 170px;
     height: 80px;
     float: right;
-    position: relative;
-    right: 200px; /* Para que quede posicionado similar a la imagen (encima de Contactos) */
 }
 
 header div + div img {
@@ -117,9 +115,10 @@ nav ul li:hover {
 /* SECCIÓN PRINCIPAL */
 #sectionPrincipal {
     width: 1120px;
-    height: 310px;
+    /* height: 310px; */
     padding: 20px;
     background-color: #E6F2FA;
+    display: flow-root;
 }
 
 #imgPrincipal {
@@ -158,9 +157,10 @@ nav ul li:hover {
 /* SECCIÓN INFERIOR */
 #sectionInferior {
     width: 1140px;
-    height: 747px;
+    /* height: 747px; */
     padding: 15px 0px 15px 20px;
     background-color: #F0FBF7;
+    display: flow-root;
 }
 
     /* FORMULARIO */
