@@ -9,7 +9,7 @@
 
 /* GENERAL */
 html {
-    width: 1200px;
+    /* width: 1200px; */
 }
 
 body {
@@ -75,7 +75,7 @@ header div + div {
 }
 
 header div + div img {
-    width: 100%;
+    width: 100%; /* 100% width, 170px div y 16px font-size html */
     height: auto;
 }
 
@@ -242,19 +242,19 @@ nav ul li:hover {
 
     #imgSecundaria { /* Imagen ventajas */
         width: 106.8181818181818%; /* 470px width y 440px div */
-        height: 29.375rem; /* 100%, 411px div y 16px font-size html*/
+        height: 411px; 
     }
 
     #imgSecundaria img {
-        width: 100%;
+        width: 100%; /* 100% width, 470px div y 16px font-size html */
         height: auto;
     }
 
     #cajaImagenLista div + div { /* Listado de ventajas */
-        width: 420px;
+        width: 95.45454545454545%; /* 420px width y 440px div */
         height: 311px;
-        padding: 0px 25px;
-        margin: 25px 0px 0px 0px;
+        padding: 0px 5.681818181818182%; /* 25px padding L/R y 440px div */
+        margin: 5.681818181818182% 0px 0px 0px; /* 25px margin top */
         background-color: #E8F4E9;
         color: #0a6fe5;
         font-size: 14px;
@@ -271,9 +271,9 @@ nav ul li:hover {
 /* FIN SECCIÓN INFERIOR */
 
 footer {
-    width: 1120px;
+    width: 96.55172413793103%; /* 1120px width y 1160px body */
     height: 40px;
-    padding: 20px;
+    padding: 1.724137931034483%; /* 20px padding y 1160px body */
     background-color: #205A82;
     color: #ffffff;
     font-size: 14px;
