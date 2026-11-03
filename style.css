@@ -259,6 +259,14 @@ nav ul li:hover {
         color: #0a6fe5;
         font-size: 14px;
     }
+
+    #cajaImagenLista div + div ul li:nth-child(even) {
+        color: green;
+    }
+
+    #cajaImagenLista div + div ul li:nth-child(odd) {
+        color: red;
+    }
     /* FIN BLOQUE SECUNDARIO */
 /* FIN SECCIÓN INFERIOR */
 
