@@ -9,7 +9,7 @@
 
 /* GENERAL */
 html {
-    /* width: 1200px; */
+    width: 1200px;
 }
 
 body {
@@ -50,14 +50,14 @@ input {
 /* HEADER */
 header {
     width: 96.55172413793103%; /* 1120px width y 1160px body */
-    height: 80px;
+    height: 5rem; /* 80px */
     padding: 1.724137931034483%; /* 20px padding y 1160px body */
     background-color: #205A82;
 }
 
 header div {
     width: 26.78571428571429%; /* 300px width y 1120px header */
-    height: 80px;
+    height: 5rem; /* 80px */
     margin: 0px 0px 0px 20px;
     float: left;
 }
@@ -70,7 +70,7 @@ header div h1 {
 
 header div + div {
     width: 15.17857142857143%; /* 170px width y 1120px header */
-    height: 80px;
+    height: 5rem; /* 80px */
     float: right;
 }
 
@@ -88,14 +88,14 @@ header div p {
 /* NAV */
 nav {
     width: 96.55172413793103%; /* 1120px width y 1160px body */
-    height: 40px;
+    height: 2.5rem; /* 40px */
     padding: 0.8620689655172414% 1.724137931034483%; /* 10px padding T/B, 20px padding L/R y 1160px body */
     background-color: #5AAFE0;
 }
 
 nav ul li {
     width: 10.71428571428571%; /* 120px width y 1120px ul */
-    height: 30px;
+    height: 1.875rem; /* 30px */
     padding: 0.8928571428571429% 0px 0px 0px; /* 10px padding top y 1120px ul */
     margin: 0px 4.310344827586207%; /* 50px margin L/R y 1160px ul */
     display: inline-block;
@@ -115,26 +115,26 @@ nav ul li:hover {
 /* SECCIÓN PRINCIPAL */
 #sectionPrincipal {
     width: 96.55172413793103%; /* 1120px width y 1160px body */
-    height: 310px;
+    height: 19.375rem; /* 310px */
     padding: 1.724137931034483%; /* 20px padding y 1160px body */
     background-color: #E6F2FA;
 }
 
 #imgPrincipal {
     width: 50%; /* 560px width y 1120px section */
-    height: 310px;
+    height: 19.375rem; /* 310px */
     margin: 0px 0.8928571428571429% 0px 0px; /* 10px padding top y 1120px section */
     float: left;
 }
 
 #imgPrincipal img {
-    width: 35rem; /* 100% width, 560px div y 16px font-size html */
+    width: 100%; /* 100% width, 560px div y 16px font-size html */
     height: auto;
 }
 
 #sectionPrincipal div + div {
     width: 44.46428571428571%; /* 498px width y 1120px section */
-    height: 298px;
+    height: 18.625rem; /* 298px */
     padding: 0.4464285714285714% 1.785714285714286%; /* 5px padding T/B, 20px padding L/R y 1120px section */
     border: solid 1px #b5e9fb;
     margin: 0px 0px 0px 0.8928571428571429%; /* 10px padding left y 1120px section */
@@ -156,7 +156,7 @@ nav ul li:hover {
 /* SECCIÓN INFERIOR */
 #sectionInferior {
     width: 98.27586206896552%; /* 1140px width y 1160px body */
-    height: 747px;
+    height: 46.6875rem; /* 747 px */
     padding: 1.293103448275862% 0px 1.293103448275862% 1.724137931034483%; /* 15px padding T/B, 20px padding right y 1160px body */
     background-color: #F0FBF7;
 }
@@ -178,7 +178,7 @@ nav ul li:hover {
 
     select {
         width: 98.5981308411215%; /* 422px width y 428px form */
-        height: 60px;
+        height: 3.75rem; /* 60px */
         padding: 0px 2.336448598130841%; /* 10px padding L/R y 428px form */
         border: solid 1px #b5e9fb;
         margin-bottom: 7.009345794392523%; /* 30px margin y 428px form */
@@ -196,7 +196,7 @@ nav ul li:hover {
 
     #inputFecha {
         width: 46.26168224299065%; /* 198px width y 428px form */
-        height: 58px;
+        height: 3.625rem; /* 58px */
         padding: 0px 2.336448598130841%; /* 10px padding L/R y 428px form */
         border: solid 1px #b5e9fb;
         margin: 0px 5.841121495327103% 3.738317757009346% 0px; /* 25px margin right, 16px margin bottom y 428px form */
@@ -204,7 +204,7 @@ nav ul li:hover {
 
     #inputPersonas {
         width: 28.03738317757009%; /* 120px width y 428px form */
-        height: 58px;
+        height: 3.625rem; /* 58px */
         padding: 0px 2.336448598130841%; /* 10pxp padding L/R y 428px form */
         border: solid 1px #b5e9fb;
         margin: 0px 0px 3.738317757009346% 5.841121495327103%; /* 16px margin bottom, 25px margin left y 428px form */
@@ -212,7 +212,7 @@ nav ul li:hover {
 
     textarea {
         width: 93.45794392523364%; /* 400px width y 428px form */
-        height: 58px;
+        height: 3.625rem; /* 58px */
         padding: 0px 2.336448598130841%; /* 10px padding L/R y 428px form */
         border: solid 1px #b5e9fb;
         margin: 0px 0px 3.738317757009346% 0px; /* 16px margin bottom y 428px form */
@@ -221,7 +221,7 @@ nav ul li:hover {
 
     input[type="submit"] {
         width: 98.5981308411215%; /* 422px width y 428px form */
-        height: 60px;
+        height: 3.75rem; /* 60px */
         border: solid 1px black;
         margin: 0px 0px 3.738317757009346% 0px; /* 16px marin bottom y 428px form */
         background-color: #2D9B48;
@@ -233,7 +233,7 @@ nav ul li:hover {
     /* BLOQUE SECUNDARIO */
     #cajaImagenLista { /* Bloque secundario del section inferior (ventajas */
         width: 38.59649122807018%; /* 440px width y 1140px section */
-        height: 717px;
+        height: 44.8125rem; /* 717px */
         padding: 1.315789473684211%; /* 15px padding y 1140px section */
         margin: 0px 0px 0px 0.8771929824561404%; /* 10px margin left y 1140px section */
         border: 0px;
@@ -252,7 +252,7 @@ nav ul li:hover {
 
     #cajaImagenLista div + div { /* Listado de ventajas */
         width: 95.45454545454545%; /* 420px width y 440px div */
-        height: 311px;
+        height: 19.4375rem;
         padding: 0px 5.681818181818182%; /* 25px padding L/R y 440px div */
         margin: 5.681818181818182% 0px 0px 0px; /* 25px margin top */
         background-color: #E8F4E9;
@@ -272,7 +272,7 @@ nav ul li:hover {
 
 footer {
     width: 96.55172413793103%; /* 1120px width y 1160px body */
-    height: 40px;
+    height: 2.5rem;
     padding: 1.724137931034483%; /* 20px padding y 1160px body */
     background-color: #205A82;
     color: #ffffff;
